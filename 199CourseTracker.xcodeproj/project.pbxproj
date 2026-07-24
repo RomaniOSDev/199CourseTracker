@@ -3,33 +3,155 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		30FCF6F830133FA9001A7AD8 /* AppChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF69430133FA9001A7AD8 /* AppChrome.swift */; };
+		30FCF6F930133FA9001A7AD8 /* CategoryBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF69530133FA9001A7AD8 /* CategoryBadgeView.swift */; };
+		30FCF6FA30133FA9001A7AD8 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF69630133FA9001A7AD8 /* Cells.swift */; };
+		30FCF6FB30133FA9001A7AD8 /* DepthDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF69730133FA9001A7AD8 /* DepthDesign.swift */; };
+		30FCF6FC30133FA9001A7AD8 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF69830133FA9001A7AD8 /* EmptyStateView.swift */; };
+		30FCF6FD30133FA9001A7AD8 /* FilterChipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF69930133FA9001A7AD8 /* FilterChipCell.swift */; };
+		30FCF6FE30133FA9001A7AD8 /* PlatformBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF69A30133FA9001A7AD8 /* PlatformBadgeView.swift */; };
+		30FCF6FF30133FA9001A7AD8 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF69B30133FA9001A7AD8 /* ProgressBarView.swift */; };
+		30FCF70030133FA9001A7AD8 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF69C30133FA9001A7AD8 /* ShareSheet.swift */; };
+		30FCF70130133FA9001A7AD8 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF69E30133FA9001A7AD8 /* Color+Hex.swift */; };
+		30FCF70230133FA9001A7AD8 /* View+Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF69F30133FA9001A7AD8 /* View+Screen.swift */; };
+		30FCF70330133FA9001A7AD8 /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6A130133FA9001A7AD8 /* AppLink.swift */; };
+		30FCF70430133FA9001A7AD8 /* NotificationName+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6A230133FA9001A7AD8 /* NotificationName+App.swift */; };
+		30FCF70530133FA9001A7AD8 /* StorageKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6A330133FA9001A7AD8 /* StorageKey.swift */; };
+		30FCF70630133FA9001A7AD8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6A630133FA9001A7AD8 /* AppCoordinator.swift */; };
+		30FCF70730133FA9001A7AD8 /* ActivityEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6A830133FA9001A7AD8 /* ActivityEvent.swift */; };
+		30FCF70830133FA9001A7AD8 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6A930133FA9001A7AD8 /* Category.swift */; };
+		30FCF70930133FA9001A7AD8 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6AA30133FA9001A7AD8 /* Course.swift */; };
+		30FCF70A30133FA9001A7AD8 /* FocusSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6AB30133FA9001A7AD8 /* FocusSession.swift */; };
+		30FCF70B30133FA9001A7AD8 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6AC30133FA9001A7AD8 /* Lesson.swift */; };
+		30FCF70C30133FA9001A7AD8 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6AD30133FA9001A7AD8 /* Note.swift */; };
+		30FCF70D30133FA9001A7AD8 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6AE30133FA9001A7AD8 /* OnboardingPage.swift */; };
+		30FCF70E30133FA9001A7AD8 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6AF30133FA9001A7AD8 /* Platform.swift */; };
+		30FCF70F30133FA9001A7AD8 /* Ritual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6B030133FA9001A7AD8 /* Ritual.swift */; };
+		30FCF71030133FA9001A7AD8 /* SkillPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6B130133FA9001A7AD8 /* SkillPath.swift */; };
+		30FCF71130133FA9001A7AD8 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6B230133FA9001A7AD8 /* Stats.swift */; };
+		30FCF71230133FA9001A7AD8 /* TeachBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6B330133FA9001A7AD8 /* TeachBack.swift */; };
+		30FCF71330133FA9001A7AD8 /* CourseEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6B530133FA9001A7AD8 /* CourseEngine.swift */; };
+		30FCF71430133FA9001A7AD8 /* RitualEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6B630133FA9001A7AD8 /* RitualEngine.swift */; };
+		30FCF71530133FA9001A7AD8 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6B730133FA9001A7AD8 /* StorageService.swift */; };
+		30FCF71630133FA9001A7AD8 /* CourseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6B930133FA9001A7AD8 /* CourseDetailViewModel.swift */; };
+		30FCF71730133FA9001A7AD8 /* CourseFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6BA30133FA9001A7AD8 /* CourseFormViewModel.swift */; };
+		30FCF71830133FA9001A7AD8 /* CourseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6BB30133FA9001A7AD8 /* CourseListViewModel.swift */; };
+		30FCF71930133FA9001A7AD8 /* FocusSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6BC30133FA9001A7AD8 /* FocusSessionViewModel.swift */; };
+		30FCF71A30133FA9001A7AD8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6BD30133FA9001A7AD8 /* HomeViewModel.swift */; };
+		30FCF71B30133FA9001A7AD8 /* LessonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6BE30133FA9001A7AD8 /* LessonViewModel.swift */; };
+		30FCF71C30133FA9001A7AD8 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6BF30133FA9001A7AD8 /* NoteViewModel.swift */; };
+		30FCF71D30133FA9001A7AD8 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6C030133FA9001A7AD8 /* OnboardingViewModel.swift */; };
+		30FCF71E30133FA9001A7AD8 /* RecallHeatmapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6C130133FA9001A7AD8 /* RecallHeatmapViewModel.swift */; };
+		30FCF71F30133FA9001A7AD8 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6C230133FA9001A7AD8 /* SettingsViewModel.swift */; };
+		30FCF72030133FA9001A7AD8 /* SkillPathViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6C330133FA9001A7AD8 /* SkillPathViewModel.swift */; };
+		30FCF72130133FA9001A7AD8 /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6C430133FA9001A7AD8 /* StatisticsViewModel.swift */; };
+		30FCF72230133FA9001A7AD8 /* TeachBackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6C530133FA9001A7AD8 /* TeachBackViewModel.swift */; };
+		30FCF72330133FA9001A7AD8 /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6C730133FA9001A7AD8 /* CourseDetailView.swift */; };
+		30FCF72430133FA9001A7AD8 /* LessonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6C830133FA9001A7AD8 /* LessonRowView.swift */; };
+		30FCF72530133FA9001A7AD8 /* CourseFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6CA30133FA9001A7AD8 /* CourseFormView.swift */; };
+		30FCF72630133FA9001A7AD8 /* CourseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6CC30133FA9001A7AD8 /* CourseCardView.swift */; };
+		30FCF72730133FA9001A7AD8 /* CourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6CD30133FA9001A7AD8 /* CourseListView.swift */; };
+		30FCF72830133FA9001A7AD8 /* FocusSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6D030133FA9001A7AD8 /* FocusSessionView.swift */; };
+		30FCF72930133FA9001A7AD8 /* RecallHeatmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6D330133FA9001A7AD8 /* RecallHeatmapView.swift */; };
+		30FCF72A30133FA9001A7AD8 /* HomeWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6D530133FA9001A7AD8 /* HomeWidgets.swift */; };
+		30FCF72B30133FA9001A7AD8 /* QuickActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6D630133FA9001A7AD8 /* QuickActionButton.swift */; };
+		30FCF72C30133FA9001A7AD8 /* StatsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6D730133FA9001A7AD8 /* StatsCard.swift */; };
+		30FCF72D30133FA9001A7AD8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6D930133FA9001A7AD8 /* HomeView.swift */; };
+		30FCF72E30133FA9001A7AD8 /* LessonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6DB30133FA9001A7AD8 /* LessonDetailView.swift */; };
+		30FCF72F30133FA9001A7AD8 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6DD30133FA9001A7AD8 /* NotesView.swift */; };
+		30FCF73030133FA9001A7AD8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6DF30133FA9001A7AD8 /* OnboardingView.swift */; };
+		30FCF73130133FA9001A7AD8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6E330133FA9001A7AD8 /* SettingsView.swift */; };
+		30FCF73230133FA9001A7AD8 /* SkillPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6E630133FA9001A7AD8 /* SkillPathView.swift */; };
+		30FCF73330133FA9001A7AD8 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6E830133FA9001A7AD8 /* StatisticsView.swift */; };
+		30FCF73430133FA9001A7AD8 /* TeachBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6EA30133FA9001A7AD8 /* TeachBackView.swift */; };
+		30FCF73530133FA9001A7AD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6ED30133FA9001A7AD8 /* AppDelegate.swift */; };
+		30FCF73630133FA9001A7AD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6EF30133FA9001A7AD8 /* ContentView.swift */; };
+		30FCF73730133FA9001A7AD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6F530133FA9001A7AD8 /* SceneDelegate.swift */; };
+		30FCF73830133FA9001A7AD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCF6F630133FA9001A7AD8 /* ViewController.swift */; };
+		30FCF73930133FA9001A7AD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FCF6EE30133FA9001A7AD8 /* Assets.xcassets */; };
+		30FCF73B30133FA9001A7AD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FCF6F230133FA9001A7AD8 /* LaunchScreen.storyboard */; };
+		30FCF73C30133FA9001A7AD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FCF6F430133FA9001A7AD8 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		06557FFEA9912FA8E6C19AED /* Pods-199CourseTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-199CourseTracker.debug.xcconfig"; path = "Target Support Files/Pods-199CourseTracker/Pods-199CourseTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		1BE49B0B59F3CE6DAB429FB3 /* Pods-199CourseTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-199CourseTracker.release.xcconfig"; path = "Target Support Files/Pods-199CourseTracker/Pods-199CourseTracker.release.xcconfig"; sourceTree = "<group>"; };
 		3054B8AD300589B600E71176 /* 199CourseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 199CourseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FCF69430133FA9001A7AD8 /* AppChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppChrome.swift; sourceTree = "<group>"; };
+		30FCF69530133FA9001A7AD8 /* CategoryBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBadgeView.swift; sourceTree = "<group>"; };
+		30FCF69630133FA9001A7AD8 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		30FCF69730133FA9001A7AD8 /* DepthDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthDesign.swift; sourceTree = "<group>"; };
+		30FCF69830133FA9001A7AD8 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		30FCF69930133FA9001A7AD8 /* FilterChipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChipCell.swift; sourceTree = "<group>"; };
+		30FCF69A30133FA9001A7AD8 /* PlatformBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformBadgeView.swift; sourceTree = "<group>"; };
+		30FCF69B30133FA9001A7AD8 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		30FCF69C30133FA9001A7AD8 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		30FCF69E30133FA9001A7AD8 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		30FCF69F30133FA9001A7AD8 /* View+Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Screen.swift"; sourceTree = "<group>"; };
+		30FCF6A130133FA9001A7AD8 /* AppLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLink.swift; sourceTree = "<group>"; };
+		30FCF6A230133FA9001A7AD8 /* NotificationName+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationName+App.swift"; sourceTree = "<group>"; };
+		30FCF6A330133FA9001A7AD8 /* StorageKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageKey.swift; sourceTree = "<group>"; };
+		30FCF6A630133FA9001A7AD8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		30FCF6A830133FA9001A7AD8 /* ActivityEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityEvent.swift; sourceTree = "<group>"; };
+		30FCF6A930133FA9001A7AD8 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		30FCF6AA30133FA9001A7AD8 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		30FCF6AB30133FA9001A7AD8 /* FocusSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSession.swift; sourceTree = "<group>"; };
+		30FCF6AC30133FA9001A7AD8 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		30FCF6AD30133FA9001A7AD8 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		30FCF6AE30133FA9001A7AD8 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		30FCF6AF30133FA9001A7AD8 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		30FCF6B030133FA9001A7AD8 /* Ritual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ritual.swift; sourceTree = "<group>"; };
+		30FCF6B130133FA9001A7AD8 /* SkillPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillPath.swift; sourceTree = "<group>"; };
+		30FCF6B230133FA9001A7AD8 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		30FCF6B330133FA9001A7AD8 /* TeachBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachBack.swift; sourceTree = "<group>"; };
+		30FCF6B530133FA9001A7AD8 /* CourseEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseEngine.swift; sourceTree = "<group>"; };
+		30FCF6B630133FA9001A7AD8 /* RitualEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualEngine.swift; sourceTree = "<group>"; };
+		30FCF6B730133FA9001A7AD8 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		30FCF6B930133FA9001A7AD8 /* CourseDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailViewModel.swift; sourceTree = "<group>"; };
+		30FCF6BA30133FA9001A7AD8 /* CourseFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseFormViewModel.swift; sourceTree = "<group>"; };
+		30FCF6BB30133FA9001A7AD8 /* CourseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListViewModel.swift; sourceTree = "<group>"; };
+		30FCF6BC30133FA9001A7AD8 /* FocusSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSessionViewModel.swift; sourceTree = "<group>"; };
+		30FCF6BD30133FA9001A7AD8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		30FCF6BE30133FA9001A7AD8 /* LessonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewModel.swift; sourceTree = "<group>"; };
+		30FCF6BF30133FA9001A7AD8 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		30FCF6C030133FA9001A7AD8 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		30FCF6C130133FA9001A7AD8 /* RecallHeatmapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecallHeatmapViewModel.swift; sourceTree = "<group>"; };
+		30FCF6C230133FA9001A7AD8 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		30FCF6C330133FA9001A7AD8 /* SkillPathViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillPathViewModel.swift; sourceTree = "<group>"; };
+		30FCF6C430133FA9001A7AD8 /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
+		30FCF6C530133FA9001A7AD8 /* TeachBackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachBackViewModel.swift; sourceTree = "<group>"; };
+		30FCF6C730133FA9001A7AD8 /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
+		30FCF6C830133FA9001A7AD8 /* LessonRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonRowView.swift; sourceTree = "<group>"; };
+		30FCF6CA30133FA9001A7AD8 /* CourseFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseFormView.swift; sourceTree = "<group>"; };
+		30FCF6CC30133FA9001A7AD8 /* CourseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCardView.swift; sourceTree = "<group>"; };
+		30FCF6CD30133FA9001A7AD8 /* CourseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListView.swift; sourceTree = "<group>"; };
+		30FCF6D030133FA9001A7AD8 /* FocusSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSessionView.swift; sourceTree = "<group>"; };
+		30FCF6D330133FA9001A7AD8 /* RecallHeatmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecallHeatmapView.swift; sourceTree = "<group>"; };
+		30FCF6D530133FA9001A7AD8 /* HomeWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgets.swift; sourceTree = "<group>"; };
+		30FCF6D630133FA9001A7AD8 /* QuickActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionButton.swift; sourceTree = "<group>"; };
+		30FCF6D730133FA9001A7AD8 /* StatsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCard.swift; sourceTree = "<group>"; };
+		30FCF6D930133FA9001A7AD8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		30FCF6DB30133FA9001A7AD8 /* LessonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDetailView.swift; sourceTree = "<group>"; };
+		30FCF6DD30133FA9001A7AD8 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		30FCF6DF30133FA9001A7AD8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		30FCF6E330133FA9001A7AD8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		30FCF6E630133FA9001A7AD8 /* SkillPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillPathView.swift; sourceTree = "<group>"; };
+		30FCF6E830133FA9001A7AD8 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		30FCF6EA30133FA9001A7AD8 /* TeachBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachBackView.swift; sourceTree = "<group>"; };
+		30FCF6ED30133FA9001A7AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30FCF6EE30133FA9001A7AD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30FCF6EF30133FA9001A7AD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30FCF6F030133FA9001A7AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FCF6F130133FA9001A7AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30FCF6F330133FA9001A7AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30FCF6F530133FA9001A7AD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30FCF6F630133FA9001A7AD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B61B3888984A88A959A863B6 /* Pods_199CourseTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_199CourseTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3054B8BF300589B700E71176 /* Exceptions for "199CourseTracker" folder in "199CourseTracker" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 3054B8AC300589B600E71176 /* 199CourseTracker */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3054B8AF300589B600E71176 /* 199CourseTracker */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				3054B8BF300589B700E71176 /* Exceptions for "199CourseTracker" folder in "199CourseTracker" target */,
-			);
-			path = 199CourseTracker;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3054B8AA300589B600E71176 /* Frameworks */ = {
@@ -45,8 +167,10 @@
 		3054B8A4300589B600E71176 = {
 			isa = PBXGroup;
 			children = (
-				3054B8AF300589B600E71176 /* 199CourseTracker */,
+				30FCF6F730133FA9001A7AD8 /* 199CourseTracker */,
 				3054B8AE300589B600E71176 /* Products */,
+				D287E01649FEF77B0314E5E8 /* Pods */,
+				70AC8CEDF5F33E7FDC6F34C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +182,323 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		30FCF69D30133FA9001A7AD8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF69430133FA9001A7AD8 /* AppChrome.swift */,
+				30FCF69530133FA9001A7AD8 /* CategoryBadgeView.swift */,
+				30FCF69630133FA9001A7AD8 /* Cells.swift */,
+				30FCF69730133FA9001A7AD8 /* DepthDesign.swift */,
+				30FCF69830133FA9001A7AD8 /* EmptyStateView.swift */,
+				30FCF69930133FA9001A7AD8 /* FilterChipCell.swift */,
+				30FCF69A30133FA9001A7AD8 /* PlatformBadgeView.swift */,
+				30FCF69B30133FA9001A7AD8 /* ProgressBarView.swift */,
+				30FCF69C30133FA9001A7AD8 /* ShareSheet.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30FCF6A030133FA9001A7AD8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF69E30133FA9001A7AD8 /* Color+Hex.swift */,
+				30FCF69F30133FA9001A7AD8 /* View+Screen.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		30FCF6A430133FA9001A7AD8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6A130133FA9001A7AD8 /* AppLink.swift */,
+				30FCF6A230133FA9001A7AD8 /* NotificationName+App.swift */,
+				30FCF6A330133FA9001A7AD8 /* StorageKey.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		30FCF6A530133FA9001A7AD8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF69D30133FA9001A7AD8 /* Components */,
+				30FCF6A030133FA9001A7AD8 /* Extensions */,
+				30FCF6A430133FA9001A7AD8 /* Utilities */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		30FCF6A730133FA9001A7AD8 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6A630133FA9001A7AD8 /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		30FCF6B430133FA9001A7AD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6A830133FA9001A7AD8 /* ActivityEvent.swift */,
+				30FCF6A930133FA9001A7AD8 /* Category.swift */,
+				30FCF6AA30133FA9001A7AD8 /* Course.swift */,
+				30FCF6AB30133FA9001A7AD8 /* FocusSession.swift */,
+				30FCF6AC30133FA9001A7AD8 /* Lesson.swift */,
+				30FCF6AD30133FA9001A7AD8 /* Note.swift */,
+				30FCF6AE30133FA9001A7AD8 /* OnboardingPage.swift */,
+				30FCF6AF30133FA9001A7AD8 /* Platform.swift */,
+				30FCF6B030133FA9001A7AD8 /* Ritual.swift */,
+				30FCF6B130133FA9001A7AD8 /* SkillPath.swift */,
+				30FCF6B230133FA9001A7AD8 /* Stats.swift */,
+				30FCF6B330133FA9001A7AD8 /* TeachBack.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30FCF6B830133FA9001A7AD8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6B530133FA9001A7AD8 /* CourseEngine.swift */,
+				30FCF6B630133FA9001A7AD8 /* RitualEngine.swift */,
+				30FCF6B730133FA9001A7AD8 /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		30FCF6C630133FA9001A7AD8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6B930133FA9001A7AD8 /* CourseDetailViewModel.swift */,
+				30FCF6BA30133FA9001A7AD8 /* CourseFormViewModel.swift */,
+				30FCF6BB30133FA9001A7AD8 /* CourseListViewModel.swift */,
+				30FCF6BC30133FA9001A7AD8 /* FocusSessionViewModel.swift */,
+				30FCF6BD30133FA9001A7AD8 /* HomeViewModel.swift */,
+				30FCF6BE30133FA9001A7AD8 /* LessonViewModel.swift */,
+				30FCF6BF30133FA9001A7AD8 /* NoteViewModel.swift */,
+				30FCF6C030133FA9001A7AD8 /* OnboardingViewModel.swift */,
+				30FCF6C130133FA9001A7AD8 /* RecallHeatmapViewModel.swift */,
+				30FCF6C230133FA9001A7AD8 /* SettingsViewModel.swift */,
+				30FCF6C330133FA9001A7AD8 /* SkillPathViewModel.swift */,
+				30FCF6C430133FA9001A7AD8 /* StatisticsViewModel.swift */,
+				30FCF6C530133FA9001A7AD8 /* TeachBackViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		30FCF6C930133FA9001A7AD8 /* CourseDetail */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6C730133FA9001A7AD8 /* CourseDetailView.swift */,
+				30FCF6C830133FA9001A7AD8 /* LessonRowView.swift */,
+			);
+			path = CourseDetail;
+			sourceTree = "<group>";
+		};
+		30FCF6CB30133FA9001A7AD8 /* CourseForm */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6CA30133FA9001A7AD8 /* CourseFormView.swift */,
+			);
+			path = CourseForm;
+			sourceTree = "<group>";
+		};
+		30FCF6CE30133FA9001A7AD8 /* CourseList */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6CC30133FA9001A7AD8 /* CourseCardView.swift */,
+				30FCF6CD30133FA9001A7AD8 /* CourseListView.swift */,
+			);
+			path = CourseList;
+			sourceTree = "<group>";
+		};
+		30FCF6CF30133FA9001A7AD8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30FCF6D130133FA9001A7AD8 /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6CF30133FA9001A7AD8 /* Components */,
+				30FCF6D030133FA9001A7AD8 /* FocusSessionView.swift */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		30FCF6D230133FA9001A7AD8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30FCF6D430133FA9001A7AD8 /* Heatmap */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6D230133FA9001A7AD8 /* Components */,
+				30FCF6D330133FA9001A7AD8 /* RecallHeatmapView.swift */,
+			);
+			path = Heatmap;
+			sourceTree = "<group>";
+		};
+		30FCF6D830133FA9001A7AD8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6D530133FA9001A7AD8 /* HomeWidgets.swift */,
+				30FCF6D630133FA9001A7AD8 /* QuickActionButton.swift */,
+				30FCF6D730133FA9001A7AD8 /* StatsCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30FCF6DA30133FA9001A7AD8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6D830133FA9001A7AD8 /* Components */,
+				30FCF6D930133FA9001A7AD8 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		30FCF6DC30133FA9001A7AD8 /* Lesson */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6DB30133FA9001A7AD8 /* LessonDetailView.swift */,
+			);
+			path = Lesson;
+			sourceTree = "<group>";
+		};
+		30FCF6DE30133FA9001A7AD8 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6DD30133FA9001A7AD8 /* NotesView.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		30FCF6E030133FA9001A7AD8 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6DF30133FA9001A7AD8 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		30FCF6E130133FA9001A7AD8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30FCF6E230133FA9001A7AD8 /* Ritual */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6E130133FA9001A7AD8 /* Components */,
+			);
+			path = Ritual;
+			sourceTree = "<group>";
+		};
+		30FCF6E430133FA9001A7AD8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6E330133FA9001A7AD8 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		30FCF6E530133FA9001A7AD8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30FCF6E730133FA9001A7AD8 /* SkillPath */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6E530133FA9001A7AD8 /* Components */,
+				30FCF6E630133FA9001A7AD8 /* SkillPathView.swift */,
+			);
+			path = SkillPath;
+			sourceTree = "<group>";
+		};
+		30FCF6E930133FA9001A7AD8 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6E830133FA9001A7AD8 /* StatisticsView.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		30FCF6EB30133FA9001A7AD8 /* TeachBack */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6EA30133FA9001A7AD8 /* TeachBackView.swift */,
+			);
+			path = TeachBack;
+			sourceTree = "<group>";
+		};
+		30FCF6EC30133FA9001A7AD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6C930133FA9001A7AD8 /* CourseDetail */,
+				30FCF6CB30133FA9001A7AD8 /* CourseForm */,
+				30FCF6CE30133FA9001A7AD8 /* CourseList */,
+				30FCF6D130133FA9001A7AD8 /* Focus */,
+				30FCF6D430133FA9001A7AD8 /* Heatmap */,
+				30FCF6DA30133FA9001A7AD8 /* Home */,
+				30FCF6DC30133FA9001A7AD8 /* Lesson */,
+				30FCF6DE30133FA9001A7AD8 /* Notes */,
+				30FCF6E030133FA9001A7AD8 /* Onboarding */,
+				30FCF6E230133FA9001A7AD8 /* Ritual */,
+				30FCF6E430133FA9001A7AD8 /* Settings */,
+				30FCF6E730133FA9001A7AD8 /* SkillPath */,
+				30FCF6E930133FA9001A7AD8 /* Statistics */,
+				30FCF6EB30133FA9001A7AD8 /* TeachBack */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30FCF6F730133FA9001A7AD8 /* 199CourseTracker */ = {
+			isa = PBXGroup;
+			children = (
+				30FCF6A530133FA9001A7AD8 /* Common */,
+				30FCF6A730133FA9001A7AD8 /* Coordinators */,
+				30FCF6B430133FA9001A7AD8 /* Models */,
+				30FCF6B830133FA9001A7AD8 /* Services */,
+				30FCF6C630133FA9001A7AD8 /* ViewModels */,
+				30FCF6EC30133FA9001A7AD8 /* Views */,
+				30FCF6ED30133FA9001A7AD8 /* AppDelegate.swift */,
+				30FCF6EE30133FA9001A7AD8 /* Assets.xcassets */,
+				30FCF6EF30133FA9001A7AD8 /* ContentView.swift */,
+				30FCF6F030133FA9001A7AD8 /* Info.plist */,
+				30FCF6F230133FA9001A7AD8 /* LaunchScreen.storyboard */,
+				30FCF6F430133FA9001A7AD8 /* Main.storyboard */,
+				30FCF6F530133FA9001A7AD8 /* SceneDelegate.swift */,
+				30FCF6F630133FA9001A7AD8 /* ViewController.swift */,
+			);
+			path = 199CourseTracker;
+			sourceTree = "<group>";
+		};
+		70AC8CEDF5F33E7FDC6F34C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B61B3888984A88A959A863B6 /* Pods_199CourseTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D287E01649FEF77B0314E5E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06557FFEA9912FA8E6C19AED /* Pods-199CourseTracker.debug.xcconfig */,
+				1BE49B0B59F3CE6DAB429FB3 /* Pods-199CourseTracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +506,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3054B8C0300589B700E71176 /* Build configuration list for PBXNativeTarget "199CourseTracker" */;
 			buildPhases = (
+				3010284FC454ED8826BD32B8 /* [CP] Check Pods Manifest.lock */,
 				3054B8A9300589B600E71176 /* Sources */,
 				3054B8AA300589B600E71176 /* Frameworks */,
 				3054B8AB300589B600E71176 /* Resources */,
@@ -73,12 +515,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				3054B8AF300589B600E71176 /* 199CourseTracker */,
-			);
 			name = 199CourseTracker;
-			packageProductDependencies = (
-			);
 			productName = 199CourseTracker;
 			productReference = 3054B8AD300589B600E71176 /* 199CourseTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +536,7 @@
 				};
 			};
 			buildConfigurationList = 3054B8A8300589B600E71176 /* Build configuration list for PBXProject "199CourseTracker" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +544,6 @@
 				Base,
 			);
 			mainGroup = 3054B8A4300589B600E71176;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 3054B8AE300589B600E71176 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +558,137 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FCF73930133FA9001A7AD8 /* Assets.xcassets in Resources */,
+				30FCF73B30133FA9001A7AD8 /* LaunchScreen.storyboard in Resources */,
+				30FCF73C30133FA9001A7AD8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3010284FC454ED8826BD32B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-199CourseTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3054B8A9300589B600E71176 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FCF6F830133FA9001A7AD8 /* AppChrome.swift in Sources */,
+				30FCF6F930133FA9001A7AD8 /* CategoryBadgeView.swift in Sources */,
+				30FCF6FA30133FA9001A7AD8 /* Cells.swift in Sources */,
+				30FCF6FB30133FA9001A7AD8 /* DepthDesign.swift in Sources */,
+				30FCF6FC30133FA9001A7AD8 /* EmptyStateView.swift in Sources */,
+				30FCF6FD30133FA9001A7AD8 /* FilterChipCell.swift in Sources */,
+				30FCF6FE30133FA9001A7AD8 /* PlatformBadgeView.swift in Sources */,
+				30FCF6FF30133FA9001A7AD8 /* ProgressBarView.swift in Sources */,
+				30FCF70030133FA9001A7AD8 /* ShareSheet.swift in Sources */,
+				30FCF70130133FA9001A7AD8 /* Color+Hex.swift in Sources */,
+				30FCF70230133FA9001A7AD8 /* View+Screen.swift in Sources */,
+				30FCF70330133FA9001A7AD8 /* AppLink.swift in Sources */,
+				30FCF70430133FA9001A7AD8 /* NotificationName+App.swift in Sources */,
+				30FCF70530133FA9001A7AD8 /* StorageKey.swift in Sources */,
+				30FCF70630133FA9001A7AD8 /* AppCoordinator.swift in Sources */,
+				30FCF70730133FA9001A7AD8 /* ActivityEvent.swift in Sources */,
+				30FCF70830133FA9001A7AD8 /* Category.swift in Sources */,
+				30FCF70930133FA9001A7AD8 /* Course.swift in Sources */,
+				30FCF70A30133FA9001A7AD8 /* FocusSession.swift in Sources */,
+				30FCF70B30133FA9001A7AD8 /* Lesson.swift in Sources */,
+				30FCF70C30133FA9001A7AD8 /* Note.swift in Sources */,
+				30FCF70D30133FA9001A7AD8 /* OnboardingPage.swift in Sources */,
+				30FCF70E30133FA9001A7AD8 /* Platform.swift in Sources */,
+				30FCF70F30133FA9001A7AD8 /* Ritual.swift in Sources */,
+				30FCF71030133FA9001A7AD8 /* SkillPath.swift in Sources */,
+				30FCF71130133FA9001A7AD8 /* Stats.swift in Sources */,
+				30FCF71230133FA9001A7AD8 /* TeachBack.swift in Sources */,
+				30FCF71330133FA9001A7AD8 /* CourseEngine.swift in Sources */,
+				30FCF71430133FA9001A7AD8 /* RitualEngine.swift in Sources */,
+				30FCF71530133FA9001A7AD8 /* StorageService.swift in Sources */,
+				30FCF71630133FA9001A7AD8 /* CourseDetailViewModel.swift in Sources */,
+				30FCF71730133FA9001A7AD8 /* CourseFormViewModel.swift in Sources */,
+				30FCF71830133FA9001A7AD8 /* CourseListViewModel.swift in Sources */,
+				30FCF71930133FA9001A7AD8 /* FocusSessionViewModel.swift in Sources */,
+				30FCF71A30133FA9001A7AD8 /* HomeViewModel.swift in Sources */,
+				30FCF71B30133FA9001A7AD8 /* LessonViewModel.swift in Sources */,
+				30FCF71C30133FA9001A7AD8 /* NoteViewModel.swift in Sources */,
+				30FCF71D30133FA9001A7AD8 /* OnboardingViewModel.swift in Sources */,
+				30FCF71E30133FA9001A7AD8 /* RecallHeatmapViewModel.swift in Sources */,
+				30FCF71F30133FA9001A7AD8 /* SettingsViewModel.swift in Sources */,
+				30FCF72030133FA9001A7AD8 /* SkillPathViewModel.swift in Sources */,
+				30FCF72130133FA9001A7AD8 /* StatisticsViewModel.swift in Sources */,
+				30FCF72230133FA9001A7AD8 /* TeachBackViewModel.swift in Sources */,
+				30FCF72330133FA9001A7AD8 /* CourseDetailView.swift in Sources */,
+				30FCF72430133FA9001A7AD8 /* LessonRowView.swift in Sources */,
+				30FCF72530133FA9001A7AD8 /* CourseFormView.swift in Sources */,
+				30FCF72630133FA9001A7AD8 /* CourseCardView.swift in Sources */,
+				30FCF72730133FA9001A7AD8 /* CourseListView.swift in Sources */,
+				30FCF72830133FA9001A7AD8 /* FocusSessionView.swift in Sources */,
+				30FCF72930133FA9001A7AD8 /* RecallHeatmapView.swift in Sources */,
+				30FCF72A30133FA9001A7AD8 /* HomeWidgets.swift in Sources */,
+				30FCF72B30133FA9001A7AD8 /* QuickActionButton.swift in Sources */,
+				30FCF72C30133FA9001A7AD8 /* StatsCard.swift in Sources */,
+				30FCF72D30133FA9001A7AD8 /* HomeView.swift in Sources */,
+				30FCF72E30133FA9001A7AD8 /* LessonDetailView.swift in Sources */,
+				30FCF72F30133FA9001A7AD8 /* NotesView.swift in Sources */,
+				30FCF73030133FA9001A7AD8 /* OnboardingView.swift in Sources */,
+				30FCF73130133FA9001A7AD8 /* SettingsView.swift in Sources */,
+				30FCF73230133FA9001A7AD8 /* SkillPathView.swift in Sources */,
+				30FCF73330133FA9001A7AD8 /* StatisticsView.swift in Sources */,
+				30FCF73430133FA9001A7AD8 /* TeachBackView.swift in Sources */,
+				30FCF73530133FA9001A7AD8 /* AppDelegate.swift in Sources */,
+				30FCF73630133FA9001A7AD8 /* ContentView.swift in Sources */,
+				30FCF73730133FA9001A7AD8 /* SceneDelegate.swift in Sources */,
+				30FCF73830133FA9001A7AD8 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		30FCF6F230133FA9001A7AD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30FCF6F130133FA9001A7AD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30FCF6F430133FA9001A7AD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30FCF6F330133FA9001A7AD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		3054B8C1300589B700E71176 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06557FFEA9912FA8E6C19AED /* Pods-199CourseTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +696,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 199CourseTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Choursek Deraklerм";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-99CourseTracker";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kai.ch93rs5kd4r9kl2r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3054B8C2300589B700E71176 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE49B0B59F3CE6DAB429FB3 /* Pods-199CourseTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +734,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 199CourseTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Choursek Deraklerм";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-99CourseTracker";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kai.ch93rs5kd4r9kl2r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
