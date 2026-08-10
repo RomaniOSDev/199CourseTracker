@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -89,6 +89,7 @@
 		30F9B02B3029EDB700F78820 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9AFD13029EDB700F78820 /* ContentView.swift */; };
 		30F9B02C3029EDB700F78820 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9AFD83029EDB700F78820 /* SceneDelegate.swift */; };
 		30F9B02D3029EDB700F78820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9AFD93029EDB700F78820 /* ViewController.swift */; };
+		30F9B0313029EE9300F78820 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9B02F3029EE9300F78820 /* NotificationService.swift */; };
 		A10000013000000100000001 /* NotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A10000023000000200000002 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B20000900000000000000090 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B20000800000000000000080 /* FirebaseMessaging */; };
 		B20000910000000000000091 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = B20000810000000000000081 /* AppsFlyerLib-Static */; };
@@ -207,13 +208,11 @@
 		30F9AFD63029EDB700F78820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30F9AFD83029EDB700F78820 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		30F9AFD93029EDB700F78820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30F9B02E3029EE9300F78820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F9B02F3029EE9300F78820 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		A10000023000000200000002 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61B3888984A88A959A863B6 /* Pods_199CourseTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_199CourseTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A10000183000001800000018 /* NotificationServiceExtension */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NotificationServiceExtension; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3054B8AA300589B600E71176 /* Frameworks */ = {
@@ -240,7 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				30F9AFDA3029EDB700F78820 /* 199CourseTracker */,
-				A10000183000001800000018 /* NotificationServiceExtension */,
+				30F9B0303029EE9300F78820 /* NotificationServiceExtension */,
 				3054B8AE300589B600E71176 /* Products */,
 				D287E01649FEF77B0314E5E8 /* Pods */,
 				70AC8CEDF5F33E7FDC6F34C9 /* Frameworks */,
@@ -579,6 +578,15 @@
 			path = 199CourseTracker;
 			sourceTree = "<group>";
 		};
+		30F9B0303029EE9300F78820 /* NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				30F9B02E3029EE9300F78820 /* Info.plist */,
+				30F9B02F3029EE9300F78820 /* NotificationService.swift */,
+			);
+			path = NotificationServiceExtension;
+			sourceTree = "<group>";
+		};
 		70AC8CEDF5F33E7FDC6F34C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -633,9 +641,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				A10000183000001800000018 /* NotificationServiceExtension */,
 			);
 			name = NotificationServiceExtension;
 			packageProductDependencies = (
@@ -815,6 +820,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F9B0313029EE9300F78820 /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
