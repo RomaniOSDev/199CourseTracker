@@ -26,6 +26,14 @@ extension Color {
             opacity: Double(a) / 255
         )
     }
+
+    // Loading syndicate aliases → existing asset colors
+    static let appBackground = Color("BackgroundPrimary")
+    static let appSurface = Color("CardBackground")
+    static let appPrimary = Color("AccentPrimary")
+    static let appAccent = Color("AccentSecondary")
+    static let appTextPrimary = Color("TextPrimary")
+    static let appTextSecondary = Color("TextSecondary")
 }
 
 enum AppColor {
